@@ -43,7 +43,7 @@ app.use(express.static(__dirname + '/public')); // This is a line of express mid
 app.get('/', (req, res) => {
     res.render('home.hbs', {
         pageTitle: 'Home Page',
-        welcomeMessage: 'Welcome to dolois page'
+        welcomeMessage: 'Welcome to my page'
     });
 });
 
@@ -55,7 +55,7 @@ app.get('/about', (req, res) => {
 
 app.get('/projects', (req, res) => {
     res.render('projects.hbs', {
-        pageTitle: 'Projects'
+        pageTitle: 'Portfolio Project Page is Here'
     });
 });
 
